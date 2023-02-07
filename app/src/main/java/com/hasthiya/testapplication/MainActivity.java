@@ -27,6 +27,8 @@ public class MainActivity extends AppCompatActivity {
         EditText edtTxtName = findViewById(R.id.editTxtName);
 //        edtTxtName.getText().toString();
 //        textHello.setText("Hello");
-        textHello.setText(edtTxtName.getText().toString());
+//        textHello.setText(edtTxtName.getText().toString());
+
+        textHello.setText("Hello" +edtTxtName.getText().toString());
     }
 }
